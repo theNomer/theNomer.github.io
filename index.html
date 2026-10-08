@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>deNomer.fun</title>
+  <meta name="description" content="Nomer — tinkerer, cybersecurity specialist and part-time creative.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="logo" href="/"><span class="dot">n</span>deNomer<small>.fun</small></a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#about">about</a>
+        <a href="#work">work</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="about" aria-label="Profile">
+      <div class="panel photo">
+        <figure>
+          <span class="tape" aria-hidden="true"></span>
+          <img src="static/Nom.png" alt="3D self-portrait of Nomer: dark hair and round glasses on a mango background">
+        </figure>
+        <figcaption><span>fig.01 — self portrait</span><span>[3d]</span></figcaption>
+      </div>
+
+      <div class="panel intro">
+        <p class="label">// profile</p>
+        <h1>Nomer</h1>
+        <p class="roles">tinkerer <span>/</span> security <span>/</span> creative</p>
+        <p class="motto">
+          <!--<span class="say">make it, break it, make it again.</span>-->
+          <svg class="scribble" viewBox="0 0 140 18" aria-hidden="true"><path d="M2 12 C 20 2, 30 18, 48 9 S 78 3, 92 11 S 122 16, 138 5" fill="none" stroke="#ffb627" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </p>
+      </div>
+
+      <div class="stats">
+        <div class="tile"><p class="label">projects live</p><b>01</b></div>
+        <div class="tile m"><p class="label">status</p><b>tinkering<span class="dots" aria-hidden="true"></span></b></div>
+      </div>
+
+      <div class="panel dial reg">
+        <p class="label">what i do</p>
+        <svg viewBox="0 0 200 200" aria-hidden="true">
+          <g fill="none">
+            <circle cx="100" cy="100" r="80" stroke="#ffb627" stroke-width="10" stroke-linecap="round" stroke-dasharray="149.55 353.10" stroke-dashoffset="-9.00" transform="rotate(-90 100 100)"/>
+            <circle cx="100" cy="100" r="80" stroke="#3e6868" stroke-width="10" stroke-linecap="round" stroke-dasharray="149.55 353.10" stroke-dashoffset="-176.55" transform="rotate(-90 100 100)"/>
+            <circle cx="100" cy="100" r="80" stroke="#c94e44" stroke-width="10" stroke-linecap="round" stroke-dasharray="149.55 353.10" stroke-dashoffset="-344.10" transform="rotate(-90 100 100)"/>
+          </g>
+          <circle class="spin" cx="100" cy="100" r="62" fill="none" stroke="#c1ab85" stroke-width="2" stroke-dasharray="2 6"/>
+          <circle cx="100" cy="100" r="44" fill="#efe4cc"/>
+          <text x="100" y="107" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="19" fill="#1a1612">for fun</text>
+        </svg>
+        <ul class="legend">
+          <li><i style="background:var(--mango)"></i><div><b>tinker</b><span>taking things apart, building odd little projects</span></div></li>
+          <li><i style="background:var(--teal)"></i><div><b>security</b><span>how systems break, and how to make them harder to break</span></div></li>
+          <li><i style="background:var(--red)"></i><div><b>create</b><span>3D, music, games</span></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="lower" id="work" aria-label="Work">
+      <div class="section-head">
+        <h2>work</h2>
+        <p class="label">things i've made</p>
+      </div>
+
+      <a class="feature" href="https://partycorner.denomer.fun">
+        <span class="sticker">live</span>
+        <span class="num">01</span>
+        <h3>Party Corner</h3>
+        <p>Party games to play with friends in the browser. No install, just open the link.</p>
+        <div class="chips"><span>games</span><span>local multiplayer</span></div>
+        <span class="go">partycorner.denomer.fun ↗</span>
+      </a>
+      <div class="slot"><b>02</b><span>on the workbench</span></div>
+      <div class="slot"><b>03</b><span>on the workbench</span></div>
+    </section>
+
+    <footer class="foot">
+      <span>deNomer.fun · <span id="year">2026</span> · hand-built, no framework</span>
+      <span>&gt; more soon <span class="cursor" aria-hidden="true">&nbsp;</span></span>
+    </footer>
+  </div>
+
+  <script src="static/main.js"></script>
+</body>
+</html>
